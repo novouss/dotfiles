@@ -1,0 +1,130 @@
+; vim:ft=dosini
+
+[global-wm]
+include-file = "$HOME/dotfiles/themes/nord-polybar"
+
+[module/dwm]
+type = internal/dwm
+# Format of the how dwm will appear
+format = <label-tags> <label-layout> <label-floating> <label-title>
+
+# Features
+enable-tags-click = true   	# Allows tags to be clickable
+enable-tags-scroll = true  	# Allows tags to be scrollable
+tags-scroll-empty = false  	# Empty tags will not be viewed
+tags-scroll-reverse = true 	# Cycles tags
+tags-scroll-wrap = true 	# Wraps tags when scrolling
+enable-layout-click = false	# Allows layout to change on click, defaults to secondary-layout-symbol
+enable-layout-scroll = false 	# Cycles between layouts
+layout-scroll-wrap = false	# Wraps layouts when scrolling
+layout-scroll-reverse = false	# Cycles layouts
+
+secondary-layout-symbol = [M] 	# When enable-layout-click is true, it will default to this
+
+# Configuration for <label-title>
+label-title = %title% 
+lable-title-padding = 2	
+label-title-foreground = ${colors.fg}
+label-title-maxlen = 30
+
+# Configuration for <label-title>
+label-layout = %symbol%
+label-layout-padding = 2
+label-layout-foreground = ${colors.norm_fg}
+label-layout-background = ${colors.norm_bg}
+
+# Text to show when currently focused window is floating
+label-floating = F
+
+# States: focused, unfocused, visible, urgent, empty
+# Selected tag is on focused monitor
+label-focused = %name%
+label-focused-foreground = ${colors.sel_fg}
+label-focused-background = ${colors.sel_bg}
+label-focused-underline = ${colors.sel_border}
+label-focused-padding = 2
+
+# Unselected tag is on unselected monitor
+label-unfocused = %name%
+label-unfocused-padding = 2
+
+# Unselected tabs is on any monitor
+label-visible = %name%
+label-visible-background = ${colors.norm_bg}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+# Tags with urgent hint
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+# Empty tags
+label-empty = %name%
+label-empty-background = ${colors.norm_bg}
+label-empty-padding = 2
+
+[module/wlan]
+# Run `ip link show` for interface
+type = internal/network
+interface = wlo1
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = ${colors.success}
+label-connected = %essid%
+
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${colors.urgent}
+label-disconnected = %ifname% disconnected
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.norm_fg}
+
+[module/eth]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+format-connected-underline = ${self.format-connected-underline}
+label-connected = Connected
+
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${colors.warning}
+label-disconnected = %ifname% disconnected
+
+[module/date]
+type = interval/date
+interval = 5
+
+date = " %B %d"
+date-alt = " %B %d, %Y"
+
+time = %I:%M
+time-alt = "%I:%M:%S"
+
+format-prefix = 
+format-underline = ${colors.sel_border}
+
+label = %date% %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume = %percentage%%
+label-volume-foreground = ${colors.norm_fg}
+
+label-muted = "muted"
+label-muted-foreground = $666
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+full-at = 90
+
