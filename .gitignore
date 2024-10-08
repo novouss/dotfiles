@@ -1,1 +1,7 @@
 yajl/
+patches/
+
+.git/
+
+README.*
+
