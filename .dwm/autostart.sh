@@ -11,9 +11,7 @@ feh --bg-fill $HOME/Pictures/castlevania-wallpaper.png &
 picom --config $HOME/.config/picom/picom.conf &
 
 # Enable Polybar
-killall -q polybar
-while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
-polybar -c $HOME/.config/polybar/config.ini main &
+$HOME/.config/polybar/launch.sh & 
 
 # Extends monitor to the right
 # xrandr --output HDMI-1 --auto --right-of eDP-1 &

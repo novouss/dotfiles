@@ -1,4 +1,4 @@
-#!/usr/bin bash
+#!/bin/sh
 
 # Terminates all running instances of Polybar
 killall -q polybar
@@ -7,3 +7,4 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 polybar -c $HOME/.config/polybar/config.ini main &
+
