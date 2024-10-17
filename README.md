@@ -1,7 +1,9 @@
 
 # Novouss' dotfiles
 
-*Insert image here*
+![[images/dotfiles-preview.png]]
+
+![[images/firefox-preview.png]]
 
 ## Prerequisities
 
