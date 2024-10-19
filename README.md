@@ -1,9 +1,9 @@
 
 # Novouss' dotfiles
 
-![[images/dotfiles-preview.png]]
+![](./images/dotfiles-preview.png)
 
-![[images/firefox-preview.png]]
+![](./images/firefox-preview.png)
 
 ## Prerequisities
 
