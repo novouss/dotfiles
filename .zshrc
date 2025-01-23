@@ -111,3 +111,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="nvim"
 alias vim="nvim"
+
+alias ll="ls -la"
+alias ga="git add $1"
+alias gs="git status"
