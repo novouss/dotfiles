@@ -1,1 +1,0 @@
-steam -applaunch 632360 --doorstop-enabled true --doorstop-target-assembly "Z:/home/novouss/.config/r2modmanPlus-local/RiskOfRain2/profiles/KarlSolo/BepInEx/core/BepInEx.Preloader.dll" --r2profile "KarlSolo"
