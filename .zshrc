@@ -112,6 +112,8 @@ source $ZSH/oh-my-zsh.sh
 alias vi="nvim"
 alias vim="nvim"
 
-alias ll="ls -la"
+alias ll="ls -a"
 alias ga="git add $1"
 alias gs="git status"
+
+. "$HOME/.local/bin/env"
