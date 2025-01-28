@@ -115,5 +115,6 @@ alias vim="nvim"
 alias ll="ls -a"
 alias ga="git add $1"
 alias gs="git status"
+alias cls="clear"
 
 . "$HOME/.local/bin/env"
