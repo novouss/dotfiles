@@ -1,0 +1,16 @@
+[applications]
+kitty
+steam
+discord
+droidcam
+firefox
+nvim
+obsidian
+vscode
+
+[libraries]
+gamescope
+gamemode
+oh-my-zsh
+
+
