@@ -116,7 +116,7 @@ alias ll="ls -a"
 alias ga="git add $1"
 alias gs="git status"
 alias cls="clear"
-alias ff="fastfetch -l arch2"
+alias ff="fastfetch"
 alias vnv="source .venv/bin/activate"
 
 # . "$HOME/.local/bin/env"
