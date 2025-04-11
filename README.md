@@ -12,7 +12,7 @@ This section summarizes most of dependencies the dotfiles use.
 Using the `pacman` package manager, install the following programs.
 
 ```bash
-sudo pacman -S kitty stow zsh steam discord nvim fastfetch ranger mangohud fastfetch git
+sudo pacman -S kitty stow zsh steam discord nvim fastfetch ranger mangohud git
 ```
 
 *Installing `firefox` is optional, try `zen`*
