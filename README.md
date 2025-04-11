@@ -1,5 +1,5 @@
 
-# Novouss's arch dotfiles
+# Novouss' arch dotfiles
 
 These are configuration files to setup tools, workspaces, and other settings and preferences.
 
