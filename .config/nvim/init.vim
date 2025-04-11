@@ -7,6 +7,7 @@ Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 call plug#end()
 
+set spell
 set relativenumber
 colorscheme catppuccin-macchiato
 
