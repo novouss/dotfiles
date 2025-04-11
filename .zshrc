@@ -74,9 +74,12 @@ prompt pure
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo)
-plugins=(zsh-autosuggestions)
-plugins=(zsh-syntax-highlighting)
+plugins=(
+	git 
+	sudo
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+)
 
 source $ZSH/plugins/sudo/sudo.plugin.zsh
 source $ZSH/oh-my-zsh.sh
