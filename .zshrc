@@ -118,5 +118,6 @@ alias gs="git status"
 alias cls="clear"
 alias ff="fastfetch"
 alias vnv="source .venv/bin/activate"
+alias clock="watch -n 1 -t date"
 
 # . "$HOME/.local/bin/env"
