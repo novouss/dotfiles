@@ -3,11 +3,11 @@
 
 These are configuration files to setup tools, workspaces, and other settings and preferences.
 
-## Prelimminaries
+# Preliminaries
 
 This section summarizes most of dependencies the dotfiles use.
 
-### Pacman Installations
+## Pacman Installations
 
 Using the `pacman` package manager, install the following programs.
 
@@ -17,7 +17,7 @@ sudo pacman -S kitty stow zsh steam discord nvim fastfetch ranger mangohud git
 
 *Installing `firefox` is optional, try `zen`*
 
-### zsh and oh-my-zsh
+## zsh and oh-my-zsh
 
 You must have zsh installed before installing oh-my-zsh, simply install the zsh package from [pacman](#pacman-installations).
 
@@ -28,7 +28,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 [Source](https://ohmyz.sh/)
 
-### Neovim and vim-plug
+## Neovim and vim-plug
 
 ```bash
 # Install via curl
@@ -38,11 +38,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 [Source](https://github.com/junegunn/vim-plug?tab=readme-ov-file#neovim)
 
-### Git Repositories
+## Git Repositories
 
-The following packages were (from exprience) better off complied from source.
+The following packages were (from experience) better off complied from source.
 
-#### oh-my-zsh pure
+### oh-my-zsh pure
 
 ```bash
 # Cloning the repository
@@ -52,7 +52,21 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 [Source](https://github.com/sindresorhus/pure)
 
-#### KDE Plasma catpuccin
+### oh-my-zsh plugins
+
+Various plugins were used for oh-my-zsh, these plugins are installed inside the `.oh-my-zsh/custom/plugins` folder.
+
+```bash
+# Enables syntax highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+```
+
+```bash
+# Enables autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+```
+
+### KDE Plasma catpuccin
 
 ```bash
 # Cloning the repository
