@@ -66,20 +66,20 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
 ```
 
-### KDE Plasma catpuccin
+### KDE Plasma catppuccin
 
 ```bash
 # Cloning the repository
 git clone --depth=1 http://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde
 ./install.sh
-# You should be given different catpuccin flavours, for the dotfiles, catpuccin-macchiato was used
+# You should be given different catppuccin flavours, for the dotfiles, catppuccin-macchiato was used
 ```
 
 [Source](https://github.com/catppuccin/kde)
 
 ## Installation and GNU-Stow
 
-Stow allows configuring dotfiles much easier by creating symlinks from a single directory tree. Ensure that you clone the repository inside your `$HOME` directory.
+Stow simplifies dotfile configurations by creating symlinks from a single directory tree. Ensure that you clone the repository inside your `$HOME` directory.
 
 ```bash
 # Cloning the repository
