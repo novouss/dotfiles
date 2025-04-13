@@ -46,7 +46,7 @@ The following packages were (from experience) better off complied from source.
 
 ```bash
 # Cloning the repository
-mkdir -p "$HOME/.zsh
+mkdir -p "$HOME/.zsh"
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 
