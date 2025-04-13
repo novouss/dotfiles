@@ -91,5 +91,11 @@ stow .
 
 ## Screenshots
 
+![fastfetch-terminal](./assets/fastfetch-terminal.png)
+<p style="text-align:center;">Terminal with fastfetch</p>
 
+![nvim-terminal](./assets/nvim-terminal.png)
+<p style="text-align:center;">Terminal with nvim</p>
 
+![plasma-themed](./assets/plasma-themed.png)
+<p style="text-align:center;">Plasma theme with catppuccin</p>
