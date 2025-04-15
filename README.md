@@ -72,7 +72,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git
 # Cloning the repository
 git clone --depth=1 http://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde
 ./install.sh
-# You should be given different catppuccin flavours, for the dotfiles, catppuccin-macchiato was used
+# You should be given different catppuccin flavours, for the dotfiles, catppuccin-frappe red was used
 ```
 
 [Source](https://github.com/catppuccin/kde)
@@ -99,3 +99,27 @@ stow .
 
 ![plasma-themed](./assets/plasma-themed.png)
 <p style="text-align:center;">Plasma theme with catppuccin</p>
+
+## Optionals
+
+This section is dedicated to optional configurations that weren't necessarily used in configuration, but good to know if the user wishes to utilize it.
+
+### Vesktop/Vencord Theme
+
+Using the AUR or `yay` package manager to install 'vesktop'.
+
+```bash
+# Installing vesktop
+yay -i vesktop
+```
+
+To install a catppuccin theme, login to discord, head to user settings, and under Themes open Online Themes.
+
+Visit the [catppuccin Discord fork repository](https://github.com/catppuccin/discord) or copy and paste the following links inside the Online Themes Textbox.
+
+```
+# You can grab these links from the repository, and be sure to grab the direct links to the file
+https://raw.githubusercontent.com/catppuccin/discord/refs/heads/main/themes/macchiato.theme.css
+https://raw.githubusercontent.com/catppuccin/discord/refs/heads/main/themes/frappe.theme.css
+```
+
