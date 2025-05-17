@@ -36,6 +36,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+After installing vim-plug, open neovim and run the `:PlugInstall` command.
+
 [Source](https://github.com/junegunn/vim-plug?tab=readme-ov-file#neovim)
 
 ## Git Repositories
