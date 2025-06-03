@@ -26,12 +26,12 @@ let g:vimwiki_list = [{
 let g:airline_theme = 'catppuccin'
 
 "nvim spell checker
-set spelllang en_us
-set spell
+set spell spelllang=en_us
 
-set number relativenumber "Adds dynamic line numbers to nvim
+"Adds dynamic line numbers to nvim
+set number relativenumber
+
 colorscheme catppuccin-macchiato
-
 set linebreak
 
 "Centers the cursor to the middle of the window when moving [d]own
