@@ -20,15 +20,28 @@ else
   export EDITOR='nvim'
 fi
 
+alias ll="ls --color=auto -a"
+alias ls='ls --color=auto'
+
+alias grep='grep --color=auto'
+
 alias vi="nvim"
 alias vim="nvim"
 
-alias ll="ls -a"
 alias ga="git add $1"
 alias gs="git status"
-alias cls="clear"
+
 alias ff="fastfetch"
 alias vnv="source .venv/bin/activate"
+
+function open() {
+	nvim "$(fzf --walker=file)"
+}
+
+function goto() {
+	cd "$(fzf --walker=dir)"
+}
+
 alias clock="watch -n 1 -t date"
 
 # . "$HOME/.local/bin/env"
