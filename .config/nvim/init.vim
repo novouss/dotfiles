@@ -31,6 +31,12 @@ set spell spelllang=en_us
 "Adds dynamic line numbers to nvim
 set number relativenumber
 
+"Autoreloads file when changes occur
+set autoread
+
+"Adds command line completion
+set wildmenu
+
 colorscheme catppuccin-macchiato
 set linebreak
 
