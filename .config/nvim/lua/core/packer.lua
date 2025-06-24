@@ -15,11 +15,13 @@ return require('packer').startup(function(use)
 
 	-- Code parser
 	use {
-		'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' }
+		'nvim-treesitter/nvim-treesitter',
+		{ run = ':TSUpdate' }
 	}
 
-	-- Language Server
-	use {
-		'neovim/nvim-lspconfig'
-	}
+	-- Language Server Protocols
+	use 'neovim/nvim-lspconfig'
+
+	-- Realtime color highlighting
+	use 'brenoprata10/nvim-highlight-colors'
 end)
