@@ -7,8 +7,12 @@
 
 export FZF_DEFAULT_COMMAND="find . -path "./.git" -prune -o -print"
 
+# Enables the QT6 language server protocol
+export PATH="/usr/lib/qt6/bin/:$PATH"
+
 alias ls='ls --color=auto'
 alias la='ls --color=auto -a'
+alias ll='ls --color=auto -a -l'
 
 alias grep='grep --color=auto'
 
