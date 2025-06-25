@@ -7,21 +7,24 @@ return require('packer').startup(function(use)
 	-- Adds git symbols to neovim
 	use 'airblade/vim-gitgutter'
 
-	-- Fuzzy finder
+	-- Adds a fuzzy finder
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	  	requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-	-- Code parser
+	-- Adds a code parser (see treesitter.nvim configuration)
 	use {
 		'nvim-treesitter/nvim-treesitter',
 		{ run = ':TSUpdate' }
 	}
 
-	-- Language Server Protocols
+	-- Adds Language Server Protocol support (see lspconfig.nvim configuration)
 	use 'neovim/nvim-lspconfig'
 
-	-- Realtime color highlighting
+	-- Adds realtime color highlighting
 	use 'brenoprata10/nvim-highlight-colors'
+
+	-- Adds a limit that makes scrolloff go past EOF
+	use 'Aasim-A/scrollEOF.nvim'
 end)
