@@ -5,7 +5,7 @@
 **Desktop Environment**: Hyprland
 **Graphical Interface**: Quickshell (soramine template)
 **Terminal**: kitty
-**Text Editior**: neovim
+**Text Editor**: neovim
  
 ## Neovim configuration
 
@@ -15,6 +15,8 @@ This configuration made use of the `packer` package manager. Run the following c
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+
+Once `packer` has been installed, run `:PackerInstall` inside `neovim` to install all the plugins.
 
 As for the language server protocol the `nvim-lspconfig` was used.
 
