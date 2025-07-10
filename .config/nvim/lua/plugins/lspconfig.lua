@@ -1,6 +1,6 @@
 
-require'lspconfig'.lua_ls.setup{}
+require('lspconfig').lua_ls.setup{}
 
-require'lspconfig'.qmlls.setup{
+require('lspconfig').qmlls.setup{
 	filetypes = { 'qml', 'qmljs' }
 }

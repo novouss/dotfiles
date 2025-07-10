@@ -2,7 +2,6 @@
 -- 'i' - refers to insert mode
 -- 'v' - refers to visual mode
 
-
 -- Centers the cursor to the middle of the window when moving [d]own
 vim.keymap.set('n', '<C-d>', '<C-d>zz', { noremap = true, silent = true })
 

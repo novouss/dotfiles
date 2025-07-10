@@ -4,8 +4,17 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	-- Adds git symbols to neovim
+	-- Adds a limit that makes scrolloff go past EOF
+	use 'Aasim-A/scrollEOF.nvim'
+
+	-- Adds git symbols 
 	use 'airblade/vim-gitgutter'
+
+	-- Adds realtime color highlighting
+	use 'brenoprata10/nvim-highlight-colors'
+
+	-- Adds Language Server Protocol support (see lspconfig.nvim configuration)
+	use 'neovim/nvim-lspconfig'
 
 	-- Adds a fuzzy finder
 	use {
@@ -13,18 +22,14 @@ return require('packer').startup(function(use)
 	  	requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+	-- Adds a file explorer
+	use 'nvim-tree/nvim-tree.lua'
+
+
 	-- Adds a code parser (see treesitter.nvim configuration)
 	use {
 		'nvim-treesitter/nvim-treesitter',
 		{ run = ':TSUpdate' }
 	}
-
-	-- Adds Language Server Protocol support (see lspconfig.nvim configuration)
-	use 'neovim/nvim-lspconfig'
-
-	-- Adds realtime color highlighting
-	use 'brenoprata10/nvim-highlight-colors'
-
-	-- Adds a limit that makes scrolloff go past EOF
-	use 'Aasim-A/scrollEOF.nvim'
 end)
+

@@ -1,1 +1,1 @@
-require'scrollEOF'.setup()
+require('scrollEOF').setup()
