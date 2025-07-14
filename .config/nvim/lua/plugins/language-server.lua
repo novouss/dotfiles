@@ -8,7 +8,7 @@ return {
     servers = {
       lua_ls = { settings = { Lua = { diagnostics = { globals = { "vim" } } } } },
       pylsp = {},
-      qmlls = {},
+      -- qmlls = {},
     }
   },
   config = function(_, opts)
@@ -18,7 +18,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "pylsp",
-        "qmlls",
+        -- "qmlls",
       },
     }
 
