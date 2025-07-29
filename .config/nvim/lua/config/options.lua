@@ -10,6 +10,9 @@ vim.opt.number = true
 -- Enables relative line numbers
 vim.opt.relativenumber = true
 
+-- Enables status columns
+vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum}"
+
 -- Enables cursor line
 vim.opt.cursorline = true
 
@@ -18,7 +21,4 @@ vim.opt.spell = true
 
 -- Disables Wrapping
 vim.wo.wrap = false
-
--- Disables scrolloff at a certain point
-vim.opt.scrolloff = 9
 
