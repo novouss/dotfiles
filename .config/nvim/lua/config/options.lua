@@ -11,7 +11,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- Enables status columns
-vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum}"
+vim.opt.statuscolumn = "%{v:relnum} %{v:lnum}"
 
 -- Enables cursor line
 vim.opt.cursorline = true
