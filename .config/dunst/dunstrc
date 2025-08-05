@@ -1,0 +1,27 @@
+[global]
+monitor = 1
+frame_width = 1
+frame_color = "#BABBF1"
+separator_color= frame
+highlight = "#85C1DC"
+background = "#303446"
+foreground = "#C6D0F5"
+corner_radius = 5
+progress_bar_corner_radius = 5
+corners = top-left,bottom
+progress_bar_corners = top-left,bottom-right
+offset = (15, 25)
+gap_size = 5
+format = "<b>󰁕 %a</b>\n%s\n<i>%b</i>"
+
+[urgency_low]
+foreground = "#A6D189"
+frame_color = "#A6D189"
+
+[urgency_normal]
+foreground = "#85C1DC"
+frame_color = "#85C1DC"
+
+[urgency_critical]
+foreground = "#E78284"
+frame_color = "#E78284"
