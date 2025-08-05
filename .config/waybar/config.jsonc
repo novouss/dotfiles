@@ -9,7 +9,7 @@
 
   "custom/weather": {
     "format": "{text}",
-    "tooltip": true,
+    "tooltip": false,
     "interval": 6000,
     "exec": "python3 /home/ray_linux/dotfiles/.config/waybar/scripts/get-weather.py",
     "return-type": "string"
@@ -18,7 +18,7 @@
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
-      "active": " ",
+      "active": " ",
       "default": " ",
       "empty": " "
     },
@@ -73,8 +73,9 @@
   "pulseaudio#audio": {
     "format": "󰕾",
     "format-muted": "󰝟",
+    "tooltip": false,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-    "tooltip": false
+    "on-click-right": "pavucontrol"
   },
 
   "tray": {
@@ -92,7 +93,7 @@
       "format": {
         "months": "<span color='#F38BA8'><b>{}</b></span>",
         "days": "<span color='#C6D0F5'><b>{}</b></span>",
-        "weekdays": "<span color='#C6D0F5'><b>{}</b></span>",
+        "weekdays": "<span color='#C6D0F5'><i>{}</i></span>",
         "today": "<span color='#E5C890'><b>{}</b></span>"
       }
     },
