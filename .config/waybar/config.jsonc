@@ -10,7 +10,7 @@
   "custom/weather": {
     "format": "{text}",
     "tooltip": false,
-    "interval": 6000,
+    "interval": 3600000,
     "exec": "python3 /home/ray_linux/dotfiles/.config/waybar/scripts/get-weather.py",
     "return-type": "string"
   },
@@ -18,7 +18,12 @@
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
-      "active": " ",
+      "1": " ",
+      "2": " ",
+      "3": " ",
+      "4": " ",
+      "5": " ",
+      "active": " ",
       "default": " ",
       "empty": " "
     },
