@@ -5,7 +5,28 @@ return {
     "nvim-lua/plenary.nvim",
   },
   config = function()
-    require("telescope").setup {}
+    local ignore_files = {
+      ".git/",
+      ".cache",
+      "%.o",
+      "%.a",
+      "%.out",
+      "%.class",
+    }
+    require("telescope").setup {
+      pickers = {
+        find_files = {
+          file_ignore_patterns = ignore_files,
+          hidden = true,
+        },
+        live_grep = {
+          file_ignore_patterns = ignore_files,
+          additional_args = function (_)
+            return { "--hidden" }
+          end
+        },
+      }
+    }
 
     local builtin = require("telescope.builtin")
 

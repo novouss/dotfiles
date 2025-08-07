@@ -5,10 +5,10 @@ return {
   config = function()
     vim.cmd.colorscheme "catppuccin-frappe"
 
-    require("catppuccin").setup({
+    require("catppuccin").setup {
       flavour = "frappe",
       transparent_background = true,
       auto_intergrations = true,
-    })
+    }
   end
 }
