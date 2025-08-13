@@ -11,7 +11,7 @@
     "format": "{text}",
     "tooltip": false,
     "interval": 3600000,
-    "exec": "python3 /home/ray_linux/dotfiles/.config/waybar/scripts/get-weather.py",
+    "exec": "bash $HOME/dotfiles/.config/scripts/get-weather.sh",
     "return-type": "string"
   },
 
