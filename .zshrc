@@ -15,15 +15,15 @@ source $ZSH/plugins/sudo/sudo.plugin.zsh
 source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR="vim"
 else
-  export EDITOR='nvim'
+  export EDITOR="nvim"
 fi
 
 alias ll="ls --color=auto -a"
-alias ls='ls --color=auto'
+alias ls="ls --color=auto"
 
-alias grep='grep --color=auto'
+alias grep="grep --color=auto"
 
 alias vi="nvim"
 alias vim="nvim"
@@ -35,11 +35,11 @@ alias ff="fastfetch"
 alias vnv="source .venv/bin/activate"
 
 function open() {
-	nvim "$(fzf --walker=file)"
+	nvim "$(fzf --walker=file,hidden --walker-skip .git)"
 }
 
 function goto() {
-	cd "$(fzf --walker=dir)"
+	cd "$(fzf --walker=dir,hidden --walker-skip .git)"
 }
 
 alias clock="watch -n 1 -t date"
