@@ -15,5 +15,5 @@ BEMENU_OPTIONS=(\
   --hf "#e5c890" \
   --ab "#303446" \
   --af "#c6d0f5" \
-  --bdr "#85C1DC"\
+  --bdr "#85C1DCEE" \
 )

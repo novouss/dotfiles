@@ -8,6 +8,7 @@
 😂 face with tears of joy
 🙂 slightly smiling face
 🙃 upside-down face
+🫠 melting face
 😉 winking face
 😊 smiling face with smiling eyes
 😇 smiling face with halo
@@ -26,15 +27,19 @@
 🤪 zany face
 😝 squinting face with tongue
 🤑 money-mouth face
-🤗 hugging face
+🤗 smiling face with open hands
 🤭 face with hand over mouth
+🫢 face with open eyes and hand over mouth
+🫣 face with peeking eye
 🤫 shushing face
 🤔 thinking face
+🫡 saluting face
 🤐 zipper-mouth face
 🤨 face with raised eyebrow
 😐 neutral face
 😑 expressionless face
 😶 face without mouth
+🫥 dotted line face
 😶‍🌫️ face in clouds
 😏 smirking face
 😒 unamused face
@@ -42,11 +47,15 @@
 😬 grimacing face
 😮‍💨 face exhaling
 🤥 lying face
+🫨 shaking face
+🙂‍↔️ head shaking horizontally
+🙂‍↕️ head shaking vertically
 😌 relieved face
 😔 pensive face
 😪 sleepy face
 🤤 drooling face
 😴 sleeping face
+🫩 face with bags under eyes
 😷 face with medical mask
 🤒 face with thermometer
 🤕 face with head-bandage
@@ -56,7 +65,7 @@
 🥵 hot face
 🥶 cold face
 🥴 woozy face
-😵 knocked-out face
+😵 face with crossed-out eyes
 😵‍💫 face with spiral eyes
 🤯 exploding head
 🤠 cowboy hat face
@@ -66,6 +75,7 @@
 🤓 nerd face
 🧐 face with monocle
 😕 confused face
+🫤 face with diagonal mouth
 😟 worried face
 🙁 slightly frowning face
 ☹️ frowning face
@@ -74,6 +84,7 @@
 😲 astonished face
 😳 flushed face
 🥺 pleading face
+🥹 face holding back tears
 😦 frowning face with open mouth
 😧 anguished face
 😨 fearful face
@@ -90,7 +101,7 @@
 😫 tired face
 🥱 yawning face
 😤 face with steam from nose
-😡 pouting face
+😡 enraged face
 😠 angry face
 🤬 face with symbols on mouth
 😈 smiling face with horns
@@ -117,7 +128,6 @@
 🙈 see-no-evil monkey
 🙉 hear-no-evil monkey
 🙊 speak-no-evil monkey
-💋 kiss mark
 💌 love letter
 💘 heart with arrow
 💝 heart with ribbon
@@ -132,14 +142,18 @@
 ❤️‍🔥 heart on fire
 ❤️‍🩹 mending heart
 ❤️ red heart
+🩷 pink heart
 🧡 orange heart
 💛 yellow heart
 💚 green heart
 💙 blue heart
+🩵 light blue heart
 💜 purple heart
 🤎 brown heart
 🖤 black heart
+🩶 grey heart
 🤍 white heart
+💋 kiss mark
 💯 hundred points
 💢 anger symbol
 💥 collision
@@ -147,13 +161,12 @@
 💦 sweat droplets
 💨 dashing away
 🕳️ hole
-💣 bomb
 💬 speech balloon
 👁️‍🗨️ eye in speech bubble
 🗨️ left speech bubble
 🗯️ right anger bubble
 💭 thought balloon
-💤 zzz
+💤 ZZZ
 👋 waving hand
 👋🏻 waving hand: light skin tone
 👋🏼 waving hand: medium-light skin tone
@@ -184,6 +197,42 @@
 🖖🏽 vulcan salute: medium skin tone
 🖖🏾 vulcan salute: medium-dark skin tone
 🖖🏿 vulcan salute: dark skin tone
+🫱 rightwards hand
+🫱🏻 rightwards hand: light skin tone
+🫱🏼 rightwards hand: medium-light skin tone
+🫱🏽 rightwards hand: medium skin tone
+🫱🏾 rightwards hand: medium-dark skin tone
+🫱🏿 rightwards hand: dark skin tone
+🫲 leftwards hand
+🫲🏻 leftwards hand: light skin tone
+🫲🏼 leftwards hand: medium-light skin tone
+🫲🏽 leftwards hand: medium skin tone
+🫲🏾 leftwards hand: medium-dark skin tone
+🫲🏿 leftwards hand: dark skin tone
+🫳 palm down hand
+🫳🏻 palm down hand: light skin tone
+🫳🏼 palm down hand: medium-light skin tone
+🫳🏽 palm down hand: medium skin tone
+🫳🏾 palm down hand: medium-dark skin tone
+🫳🏿 palm down hand: dark skin tone
+🫴 palm up hand
+🫴🏻 palm up hand: light skin tone
+🫴🏼 palm up hand: medium-light skin tone
+🫴🏽 palm up hand: medium skin tone
+🫴🏾 palm up hand: medium-dark skin tone
+🫴🏿 palm up hand: dark skin tone
+🫷 leftwards pushing hand
+🫷🏻 leftwards pushing hand: light skin tone
+🫷🏼 leftwards pushing hand: medium-light skin tone
+🫷🏽 leftwards pushing hand: medium skin tone
+🫷🏾 leftwards pushing hand: medium-dark skin tone
+🫷🏿 leftwards pushing hand: dark skin tone
+🫸 rightwards pushing hand
+🫸🏻 rightwards pushing hand: light skin tone
+🫸🏼 rightwards pushing hand: medium-light skin tone
+🫸🏽 rightwards pushing hand: medium skin tone
+🫸🏾 rightwards pushing hand: medium-dark skin tone
+🫸🏿 rightwards pushing hand: dark skin tone
 👌 OK hand
 👌🏻 OK hand: light skin tone
 👌🏼 OK hand: medium-light skin tone
@@ -214,6 +263,12 @@
 🤞🏽 crossed fingers: medium skin tone
 🤞🏾 crossed fingers: medium-dark skin tone
 🤞🏿 crossed fingers: dark skin tone
+🫰 hand with index finger and thumb crossed
+🫰🏻 hand with index finger and thumb crossed: light skin tone
+🫰🏼 hand with index finger and thumb crossed: medium-light skin tone
+🫰🏽 hand with index finger and thumb crossed: medium skin tone
+🫰🏾 hand with index finger and thumb crossed: medium-dark skin tone
+🫰🏿 hand with index finger and thumb crossed: dark skin tone
 🤟 love-you gesture
 🤟🏻 love-you gesture: light skin tone
 🤟🏼 love-you gesture: medium-light skin tone
@@ -268,6 +323,12 @@
 ☝🏽 index pointing up: medium skin tone
 ☝🏾 index pointing up: medium-dark skin tone
 ☝🏿 index pointing up: dark skin tone
+🫵 index pointing at the viewer
+🫵🏻 index pointing at the viewer: light skin tone
+🫵🏼 index pointing at the viewer: medium-light skin tone
+🫵🏽 index pointing at the viewer: medium skin tone
+🫵🏾 index pointing at the viewer: medium-dark skin tone
+🫵🏿 index pointing at the viewer: dark skin tone
 👍 thumbs up
 👍🏻 thumbs up: light skin tone
 👍🏼 thumbs up: medium-light skin tone
@@ -316,6 +377,12 @@
 🙌🏽 raising hands: medium skin tone
 🙌🏾 raising hands: medium-dark skin tone
 🙌🏿 raising hands: dark skin tone
+🫶 heart hands
+🫶🏻 heart hands: light skin tone
+🫶🏼 heart hands: medium-light skin tone
+🫶🏽 heart hands: medium skin tone
+🫶🏾 heart hands: medium-dark skin tone
+🫶🏿 heart hands: dark skin tone
 👐 open hands
 👐🏻 open hands: light skin tone
 👐🏼 open hands: medium-light skin tone
@@ -329,6 +396,31 @@
 🤲🏾 palms up together: medium-dark skin tone
 🤲🏿 palms up together: dark skin tone
 🤝 handshake
+🤝🏻 handshake: light skin tone
+🤝🏼 handshake: medium-light skin tone
+🤝🏽 handshake: medium skin tone
+🤝🏾 handshake: medium-dark skin tone
+🤝🏿 handshake: dark skin tone
+🫱🏻‍🫲🏼 handshake: light skin tone, medium-light skin tone
+🫱🏻‍🫲🏽 handshake: light skin tone, medium skin tone
+🫱🏻‍🫲🏾 handshake: light skin tone, medium-dark skin tone
+🫱🏻‍🫲🏿 handshake: light skin tone, dark skin tone
+🫱🏼‍🫲🏻 handshake: medium-light skin tone, light skin tone
+🫱🏼‍🫲🏽 handshake: medium-light skin tone, medium skin tone
+🫱🏼‍🫲🏾 handshake: medium-light skin tone, medium-dark skin tone
+🫱🏼‍🫲🏿 handshake: medium-light skin tone, dark skin tone
+🫱🏽‍🫲🏻 handshake: medium skin tone, light skin tone
+🫱🏽‍🫲🏼 handshake: medium skin tone, medium-light skin tone
+🫱🏽‍🫲🏾 handshake: medium skin tone, medium-dark skin tone
+🫱🏽‍🫲🏿 handshake: medium skin tone, dark skin tone
+🫱🏾‍🫲🏻 handshake: medium-dark skin tone, light skin tone
+🫱🏾‍🫲🏼 handshake: medium-dark skin tone, medium-light skin tone
+🫱🏾‍🫲🏽 handshake: medium-dark skin tone, medium skin tone
+🫱🏾‍🫲🏿 handshake: medium-dark skin tone, dark skin tone
+🫱🏿‍🫲🏻 handshake: dark skin tone, light skin tone
+🫱🏿‍🫲🏼 handshake: dark skin tone, medium-light skin tone
+🫱🏿‍🫲🏽 handshake: dark skin tone, medium skin tone
+🫱🏿‍🫲🏾 handshake: dark skin tone, medium-dark skin tone
 🙏 folded hands
 🙏🏻 folded hands: light skin tone
 🙏🏼 folded hands: medium-light skin tone
@@ -400,6 +492,7 @@
 👁️ eye
 👅 tongue
 👄 mouth
+🫦 biting lip
 👶 baby
 👶🏻 baby: light skin tone
 👶🏼 baby: medium-light skin tone
@@ -1114,6 +1207,12 @@
 👷🏽‍♀️ woman construction worker: medium skin tone
 👷🏾‍♀️ woman construction worker: medium-dark skin tone
 👷🏿‍♀️ woman construction worker: dark skin tone
+🫅 person with crown
+🫅🏻 person with crown: light skin tone
+🫅🏼 person with crown: medium-light skin tone
+🫅🏽 person with crown: medium skin tone
+🫅🏾 person with crown: medium-dark skin tone
+🫅🏿 person with crown: dark skin tone
 🤴 prince
 🤴🏻 prince: light skin tone
 🤴🏼 prince: medium-light skin tone
@@ -1198,6 +1297,18 @@
 🤰🏽 pregnant woman: medium skin tone
 🤰🏾 pregnant woman: medium-dark skin tone
 🤰🏿 pregnant woman: dark skin tone
+🫃 pregnant man
+🫃🏻 pregnant man: light skin tone
+🫃🏼 pregnant man: medium-light skin tone
+🫃🏽 pregnant man: medium skin tone
+🫃🏾 pregnant man: medium-dark skin tone
+🫃🏿 pregnant man: dark skin tone
+🫄 pregnant person
+🫄🏻 pregnant person: light skin tone
+🫄🏼 pregnant person: medium-light skin tone
+🫄🏽 pregnant person: medium skin tone
+🫄🏾 pregnant person: medium-dark skin tone
+🫄🏿 pregnant person: dark skin tone
 🤱 breast-feeding
 🤱🏻 breast-feeding: light skin tone
 🤱🏼 breast-feeding: medium-light skin tone
@@ -1240,12 +1351,12 @@
 🤶🏽 Mrs. Claus: medium skin tone
 🤶🏾 Mrs. Claus: medium-dark skin tone
 🤶🏿 Mrs. Claus: dark skin tone
-🧑‍🎄 mx claus
-🧑🏻‍🎄 mx claus: light skin tone
-🧑🏼‍🎄 mx claus: medium-light skin tone
-🧑🏽‍🎄 mx claus: medium skin tone
-🧑🏾‍🎄 mx claus: medium-dark skin tone
-🧑🏿‍🎄 mx claus: dark skin tone
+🧑‍🎄 Mx Claus
+🧑🏻‍🎄 Mx Claus: light skin tone
+🧑🏼‍🎄 Mx Claus: medium-light skin tone
+🧑🏽‍🎄 Mx Claus: medium skin tone
+🧑🏾‍🎄 Mx Claus: medium-dark skin tone
+🧑🏿‍🎄 Mx Claus: dark skin tone
 🦸 superhero
 🦸🏻 superhero: light skin tone
 🦸🏼 superhero: medium-light skin tone
@@ -1378,6 +1489,7 @@
 🧟 zombie
 🧟‍♂️ man zombie
 🧟‍♀️ woman zombie
+🧌 troll
 💆 person getting massage
 💆🏻 person getting massage: light skin tone
 💆🏼 person getting massage: medium-light skin tone
@@ -1432,6 +1544,24 @@
 🚶🏽‍♀️ woman walking: medium skin tone
 🚶🏾‍♀️ woman walking: medium-dark skin tone
 🚶🏿‍♀️ woman walking: dark skin tone
+🚶‍➡️ person walking facing right
+🚶🏻‍➡️ person walking facing right: light skin tone
+🚶🏼‍➡️ person walking facing right: medium-light skin tone
+🚶🏽‍➡️ person walking facing right: medium skin tone
+🚶🏾‍➡️ person walking facing right: medium-dark skin tone
+🚶🏿‍➡️ person walking facing right: dark skin tone
+🚶‍♀️‍➡️ woman walking facing right
+🚶🏻‍♀️‍➡️ woman walking facing right: light skin tone
+🚶🏼‍♀️‍➡️ woman walking facing right: medium-light skin tone
+🚶🏽‍♀️‍➡️ woman walking facing right: medium skin tone
+🚶🏾‍♀️‍➡️ woman walking facing right: medium-dark skin tone
+🚶🏿‍♀️‍➡️ woman walking facing right: dark skin tone
+🚶‍♂️‍➡️ man walking facing right
+🚶🏻‍♂️‍➡️ man walking facing right: light skin tone
+🚶🏼‍♂️‍➡️ man walking facing right: medium-light skin tone
+🚶🏽‍♂️‍➡️ man walking facing right: medium skin tone
+🚶🏾‍♂️‍➡️ man walking facing right: medium-dark skin tone
+🚶🏿‍♂️‍➡️ man walking facing right: dark skin tone
 🧍 person standing
 🧍🏻 person standing: light skin tone
 🧍🏼 person standing: medium-light skin tone
@@ -1468,60 +1598,132 @@
 🧎🏽‍♀️ woman kneeling: medium skin tone
 🧎🏾‍♀️ woman kneeling: medium-dark skin tone
 🧎🏿‍♀️ woman kneeling: dark skin tone
+🧎‍➡️ person kneeling facing right
+🧎🏻‍➡️ person kneeling facing right: light skin tone
+🧎🏼‍➡️ person kneeling facing right: medium-light skin tone
+🧎🏽‍➡️ person kneeling facing right: medium skin tone
+🧎🏾‍➡️ person kneeling facing right: medium-dark skin tone
+🧎🏿‍➡️ person kneeling facing right: dark skin tone
+🧎‍♀️‍➡️ woman kneeling facing right
+🧎🏻‍♀️‍➡️ woman kneeling facing right: light skin tone
+🧎🏼‍♀️‍➡️ woman kneeling facing right: medium-light skin tone
+🧎🏽‍♀️‍➡️ woman kneeling facing right: medium skin tone
+🧎🏾‍♀️‍➡️ woman kneeling facing right: medium-dark skin tone
+🧎🏿‍♀️‍➡️ woman kneeling facing right: dark skin tone
+🧎‍♂️‍➡️ man kneeling facing right
+🧎🏻‍♂️‍➡️ man kneeling facing right: light skin tone
+🧎🏼‍♂️‍➡️ man kneeling facing right: medium-light skin tone
+🧎🏽‍♂️‍➡️ man kneeling facing right: medium skin tone
+🧎🏾‍♂️‍➡️ man kneeling facing right: medium-dark skin tone
+🧎🏿‍♂️‍➡️ man kneeling facing right: dark skin tone
 🧑‍🦯 person with white cane
 🧑🏻‍🦯 person with white cane: light skin tone
 🧑🏼‍🦯 person with white cane: medium-light skin tone
 🧑🏽‍🦯 person with white cane: medium skin tone
 🧑🏾‍🦯 person with white cane: medium-dark skin tone
 🧑🏿‍🦯 person with white cane: dark skin tone
+🧑‍🦯‍➡️ person with white cane facing right
+🧑🏻‍🦯‍➡️ person with white cane facing right: light skin tone
+🧑🏼‍🦯‍➡️ person with white cane facing right: medium-light skin tone
+🧑🏽‍🦯‍➡️ person with white cane facing right: medium skin tone
+🧑🏾‍🦯‍➡️ person with white cane facing right: medium-dark skin tone
+🧑🏿‍🦯‍➡️ person with white cane facing right: dark skin tone
 👨‍🦯 man with white cane
 👨🏻‍🦯 man with white cane: light skin tone
 👨🏼‍🦯 man with white cane: medium-light skin tone
 👨🏽‍🦯 man with white cane: medium skin tone
 👨🏾‍🦯 man with white cane: medium-dark skin tone
 👨🏿‍🦯 man with white cane: dark skin tone
+👨‍🦯‍➡️ man with white cane facing right
+👨🏻‍🦯‍➡️ man with white cane facing right: light skin tone
+👨🏼‍🦯‍➡️ man with white cane facing right: medium-light skin tone
+👨🏽‍🦯‍➡️ man with white cane facing right: medium skin tone
+👨🏾‍🦯‍➡️ man with white cane facing right: medium-dark skin tone
+👨🏿‍🦯‍➡️ man with white cane facing right: dark skin tone
 👩‍🦯 woman with white cane
 👩🏻‍🦯 woman with white cane: light skin tone
 👩🏼‍🦯 woman with white cane: medium-light skin tone
 👩🏽‍🦯 woman with white cane: medium skin tone
 👩🏾‍🦯 woman with white cane: medium-dark skin tone
 👩🏿‍🦯 woman with white cane: dark skin tone
+👩‍🦯‍➡️ woman with white cane facing right
+👩🏻‍🦯‍➡️ woman with white cane facing right: light skin tone
+👩🏼‍🦯‍➡️ woman with white cane facing right: medium-light skin tone
+👩🏽‍🦯‍➡️ woman with white cane facing right: medium skin tone
+👩🏾‍🦯‍➡️ woman with white cane facing right: medium-dark skin tone
+👩🏿‍🦯‍➡️ woman with white cane facing right: dark skin tone
 🧑‍🦼 person in motorized wheelchair
 🧑🏻‍🦼 person in motorized wheelchair: light skin tone
 🧑🏼‍🦼 person in motorized wheelchair: medium-light skin tone
 🧑🏽‍🦼 person in motorized wheelchair: medium skin tone
 🧑🏾‍🦼 person in motorized wheelchair: medium-dark skin tone
 🧑🏿‍🦼 person in motorized wheelchair: dark skin tone
+🧑‍🦼‍➡️ person in motorized wheelchair facing right
+🧑🏻‍🦼‍➡️ person in motorized wheelchair facing right: light skin tone
+🧑🏼‍🦼‍➡️ person in motorized wheelchair facing right: medium-light skin tone
+🧑🏽‍🦼‍➡️ person in motorized wheelchair facing right: medium skin tone
+🧑🏾‍🦼‍➡️ person in motorized wheelchair facing right: medium-dark skin tone
+🧑🏿‍🦼‍➡️ person in motorized wheelchair facing right: dark skin tone
 👨‍🦼 man in motorized wheelchair
 👨🏻‍🦼 man in motorized wheelchair: light skin tone
 👨🏼‍🦼 man in motorized wheelchair: medium-light skin tone
 👨🏽‍🦼 man in motorized wheelchair: medium skin tone
 👨🏾‍🦼 man in motorized wheelchair: medium-dark skin tone
 👨🏿‍🦼 man in motorized wheelchair: dark skin tone
+👨‍🦼‍➡️ man in motorized wheelchair facing right
+👨🏻‍🦼‍➡️ man in motorized wheelchair facing right: light skin tone
+👨🏼‍🦼‍➡️ man in motorized wheelchair facing right: medium-light skin tone
+👨🏽‍🦼‍➡️ man in motorized wheelchair facing right: medium skin tone
+👨🏾‍🦼‍➡️ man in motorized wheelchair facing right: medium-dark skin tone
+👨🏿‍🦼‍➡️ man in motorized wheelchair facing right: dark skin tone
 👩‍🦼 woman in motorized wheelchair
 👩🏻‍🦼 woman in motorized wheelchair: light skin tone
 👩🏼‍🦼 woman in motorized wheelchair: medium-light skin tone
 👩🏽‍🦼 woman in motorized wheelchair: medium skin tone
 👩🏾‍🦼 woman in motorized wheelchair: medium-dark skin tone
 👩🏿‍🦼 woman in motorized wheelchair: dark skin tone
+👩‍🦼‍➡️ woman in motorized wheelchair facing right
+👩🏻‍🦼‍➡️ woman in motorized wheelchair facing right: light skin tone
+👩🏼‍🦼‍➡️ woman in motorized wheelchair facing right: medium-light skin tone
+👩🏽‍🦼‍➡️ woman in motorized wheelchair facing right: medium skin tone
+👩🏾‍🦼‍➡️ woman in motorized wheelchair facing right: medium-dark skin tone
+👩🏿‍🦼‍➡️ woman in motorized wheelchair facing right: dark skin tone
 🧑‍🦽 person in manual wheelchair
 🧑🏻‍🦽 person in manual wheelchair: light skin tone
 🧑🏼‍🦽 person in manual wheelchair: medium-light skin tone
 🧑🏽‍🦽 person in manual wheelchair: medium skin tone
 🧑🏾‍🦽 person in manual wheelchair: medium-dark skin tone
 🧑🏿‍🦽 person in manual wheelchair: dark skin tone
+🧑‍🦽‍➡️ person in manual wheelchair facing right
+🧑🏻‍🦽‍➡️ person in manual wheelchair facing right: light skin tone
+🧑🏼‍🦽‍➡️ person in manual wheelchair facing right: medium-light skin tone
+🧑🏽‍🦽‍➡️ person in manual wheelchair facing right: medium skin tone
+🧑🏾‍🦽‍➡️ person in manual wheelchair facing right: medium-dark skin tone
+🧑🏿‍🦽‍➡️ person in manual wheelchair facing right: dark skin tone
 👨‍🦽 man in manual wheelchair
 👨🏻‍🦽 man in manual wheelchair: light skin tone
 👨🏼‍🦽 man in manual wheelchair: medium-light skin tone
 👨🏽‍🦽 man in manual wheelchair: medium skin tone
 👨🏾‍🦽 man in manual wheelchair: medium-dark skin tone
 👨🏿‍🦽 man in manual wheelchair: dark skin tone
+👨‍🦽‍➡️ man in manual wheelchair facing right
+👨🏻‍🦽‍➡️ man in manual wheelchair facing right: light skin tone
+👨🏼‍🦽‍➡️ man in manual wheelchair facing right: medium-light skin tone
+👨🏽‍🦽‍➡️ man in manual wheelchair facing right: medium skin tone
+👨🏾‍🦽‍➡️ man in manual wheelchair facing right: medium-dark skin tone
+👨🏿‍🦽‍➡️ man in manual wheelchair facing right: dark skin tone
 👩‍🦽 woman in manual wheelchair
 👩🏻‍🦽 woman in manual wheelchair: light skin tone
 👩🏼‍🦽 woman in manual wheelchair: medium-light skin tone
 👩🏽‍🦽 woman in manual wheelchair: medium skin tone
 👩🏾‍🦽 woman in manual wheelchair: medium-dark skin tone
 👩🏿‍🦽 woman in manual wheelchair: dark skin tone
+👩‍🦽‍➡️ woman in manual wheelchair facing right
+👩🏻‍🦽‍➡️ woman in manual wheelchair facing right: light skin tone
+👩🏼‍🦽‍➡️ woman in manual wheelchair facing right: medium-light skin tone
+👩🏽‍🦽‍➡️ woman in manual wheelchair facing right: medium skin tone
+👩🏾‍🦽‍➡️ woman in manual wheelchair facing right: medium-dark skin tone
+👩🏿‍🦽‍➡️ woman in manual wheelchair facing right: dark skin tone
 🏃 person running
 🏃🏻 person running: light skin tone
 🏃🏼 person running: medium-light skin tone
@@ -1540,6 +1742,24 @@
 🏃🏽‍♀️ woman running: medium skin tone
 🏃🏾‍♀️ woman running: medium-dark skin tone
 🏃🏿‍♀️ woman running: dark skin tone
+🏃‍➡️ person running facing right
+🏃🏻‍➡️ person running facing right: light skin tone
+🏃🏼‍➡️ person running facing right: medium-light skin tone
+🏃🏽‍➡️ person running facing right: medium skin tone
+🏃🏾‍➡️ person running facing right: medium-dark skin tone
+🏃🏿‍➡️ person running facing right: dark skin tone
+🏃‍♀️‍➡️ woman running facing right
+🏃🏻‍♀️‍➡️ woman running facing right: light skin tone
+🏃🏼‍♀️‍➡️ woman running facing right: medium-light skin tone
+🏃🏽‍♀️‍➡️ woman running facing right: medium skin tone
+🏃🏾‍♀️‍➡️ woman running facing right: medium-dark skin tone
+🏃🏿‍♀️‍➡️ woman running facing right: dark skin tone
+🏃‍♂️‍➡️ man running facing right
+🏃🏻‍♂️‍➡️ man running facing right: light skin tone
+🏃🏼‍♂️‍➡️ man running facing right: medium-light skin tone
+🏃🏽‍♂️‍➡️ man running facing right: medium skin tone
+🏃🏾‍♂️‍➡️ man running facing right: medium-dark skin tone
+🏃🏿‍♂️‍➡️ man running facing right: dark skin tone
 💃 woman dancing
 💃🏻 woman dancing: light skin tone
 💃🏼 woman dancing: medium-light skin tone
@@ -2172,7 +2392,6 @@
 👩🏿‍❤️‍👩🏽 couple with heart: woman, woman, dark skin tone, medium skin tone
 👩🏿‍❤️‍👩🏾 couple with heart: woman, woman, dark skin tone, medium-dark skin tone
 👩🏿‍❤️‍👩🏿 couple with heart: woman, woman, dark skin tone
-👪 family
 👨‍👩‍👦 family: man, woman, boy
 👨‍👩‍👧 family: man, woman, girl
 👨‍👩‍👧‍👦 family: man, woman, girl, boy
@@ -2202,7 +2421,13 @@
 👤 bust in silhouette
 👥 busts in silhouette
 🫂 people hugging
+👪 family
+🧑‍🧑‍🧒 family: adult, adult, child
+🧑‍🧑‍🧒‍🧒 family: adult, adult, child, child
+🧑‍🧒 family: adult, child
+🧑‍🧒‍🧒 family: adult, child, child
 👣 footprints
+🫆 fingerprint
 🐵 monkey face
 🐒 monkey
 🦍 gorilla
@@ -2223,6 +2448,8 @@
 🐅 tiger
 🐆 leopard
 🐴 horse face
+🫎 moose
+🫏 donkey
 🐎 horse
 🦄 unicorn
 🦓 zebra
@@ -2285,6 +2512,10 @@
 🦩 flamingo
 🦚 peacock
 🦜 parrot
+🪽 wing
+🐦‍⬛ black bird
+🪿 goose
+🐦‍🔥 phoenix
 🐸 frog
 🐊 crocodile
 🐢 turtle
@@ -2304,6 +2535,13 @@
 🦈 shark
 🐙 octopus
 🐚 spiral shell
+🪸 coral
+🪼 jellyfish
+🦀 crab
+🦞 lobster
+🦐 shrimp
+🦑 squid
+🦪 oyster
 🐌 snail
 🦋 butterfly
 🐛 bug
@@ -2323,6 +2561,7 @@
 💐 bouquet
 🌸 cherry blossom
 💮 white flower
+🪷 lotus
 🏵️ rosette
 🌹 rose
 🥀 wilted flower
@@ -2330,6 +2569,7 @@
 🌻 sunflower
 🌼 blossom
 🌷 tulip
+🪻 hyacinth
 🌱 seedling
 🪴 potted plant
 🌲 evergreen tree
@@ -2343,11 +2583,16 @@
 🍁 maple leaf
 🍂 fallen leaf
 🍃 leaf fluttering in wind
+🪹 empty nest
+🪺 nest with eggs
+🍄 mushroom
+🪾 leafless tree
 🍇 grapes
 🍈 melon
 🍉 watermelon
 🍊 tangerine
 🍋 lemon
+🍋‍🟩 lime
 🍌 banana
 🍍 pineapple
 🥭 mango
@@ -2374,9 +2619,13 @@
 🥦 broccoli
 🧄 garlic
 🧅 onion
-🍄 mushroom
 🥜 peanuts
+🫘 beans
 🌰 chestnut
+🫚 ginger root
+🫛 pea pod
+🍄‍🟫 brown mushroom
+🫜 root vegetable
 🍞 bread
 🥐 croissant
 🥖 baguette bread
@@ -2428,11 +2677,6 @@
 🥟 dumpling
 🥠 fortune cookie
 🥡 takeout box
-🦀 crab
-🦞 lobster
-🦐 shrimp
-🦑 squid
-🦪 oyster
 🍦 soft ice cream
 🍧 shaved ice
 🍨 ice cream
@@ -2461,6 +2705,7 @@
 🍻 clinking beer mugs
 🥂 clinking glasses
 🥃 tumbler glass
+🫗 pouring liquid
 🥤 cup with straw
 🧋 bubble tea
 🧃 beverage box
@@ -2471,6 +2716,7 @@
 🍴 fork and knife
 🥄 spoon
 🔪 kitchen knife
+🫙 jar
 🏺 amphora
 🌍 globe showing Europe-Africa
 🌎 globe showing Americas
@@ -2533,6 +2779,7 @@
 🌉 bridge at night
 ♨️ hot springs
 🎠 carousel horse
+🛝 playground slide
 🎡 ferris wheel
 🎢 roller coaster
 💈 barber pole
@@ -2581,12 +2828,14 @@
 🛤️ railway track
 🛢️ oil drum
 ⛽ fuel pump
+🛞 wheel
 🚨 police car light
 🚥 horizontal traffic light
 🚦 vertical traffic light
 🛑 stop sign
 🚧 construction
 ⚓ anchor
+🛟 ring buoy
 ⛵ sailboat
 🛶 canoe
 🚤 speedboat
@@ -2744,10 +2993,10 @@
 🎯 bullseye
 🪀 yo-yo
 🪁 kite
+🔫 water pistol
 🎱 pool 8 ball
 🔮 crystal ball
 🪄 magic wand
-🧿 nazar amulet
 🎮 video game
 🕹️ joystick
 🎰 slot machine
@@ -2755,6 +3004,7 @@
 🧩 puzzle piece
 🧸 teddy bear
 🪅 piñata
+🪩 mirror ball
 🪆 nesting dolls
 ♠️ spade suit
 ♥️ heart suit
@@ -2791,6 +3041,7 @@
 🩳 shorts
 👙 bikini
 👚 woman’s clothes
+🪭 folding hand fan
 👛 purse
 👜 handbag
 👝 clutch bag
@@ -2805,6 +3056,7 @@
 👡 woman’s sandal
 🩰 ballet shoes
 👢 woman’s boot
+🪮 hair pick
 👑 crown
 👒 woman’s hat
 🎩 top hat
@@ -2843,6 +3095,9 @@
 🪕 banjo
 🥁 drum
 🪘 long drum
+🪇 maracas
+🪈 flute
+🪉 harp
 📱 mobile phone
 📲 mobile phone with arrow
 ☎️ telephone
@@ -2850,6 +3105,7 @@
 📟 pager
 📠 fax machine
 🔋 battery
+🪫 low battery
 🔌 electric plug
 💻 laptop
 🖥️ desktop computer
@@ -2961,7 +3217,7 @@
 🛠️ hammer and wrench
 🗡️ dagger
 ⚔️ crossed swords
-🔫 water pistol
+💣 bomb
 🪃 boomerang
 🏹 bow and arrow
 🛡️ shield
@@ -2974,11 +3230,13 @@
 ⚖️ balance scale
 🦯 white cane
 🔗 link
+⛓️‍💥 broken chain
 ⛓️ chains
 🪝 hook
 🧰 toolbox
 🧲 magnet
 🪜 ladder
+🪏 shovel
 ⚗️ alembic
 🧪 test tube
 🧫 petri dish
@@ -2990,7 +3248,9 @@
 🩸 drop of blood
 💊 pill
 🩹 adhesive bandage
+🩼 crutch
 🩺 stethoscope
+🩻 x-ray
 🚪 door
 🛗 elevator
 🪞 mirror
@@ -3011,6 +3271,7 @@
 🧻 roll of paper
 🪣 bucket
 🧼 soap
+🫧 bubbles
 🪥 toothbrush
 🧽 sponge
 🧯 fire extinguisher
@@ -3019,8 +3280,11 @@
 ⚰️ coffin
 🪦 headstone
 ⚱️ funeral urn
+🧿 nazar amulet
+🪬 hamsa
 🗿 moai
 🪧 placard
+🪪 identification card
 🏧 ATM sign
 🚮 litter in bin sign
 🚰 potable water
@@ -3080,6 +3344,7 @@
 ☮️ peace symbol
 🕎 menorah
 🔯 dotted six-pointed star
+🪯 khanda
 ♈ Aries
 ♉ Taurus
 ♊ Gemini
@@ -3115,6 +3380,7 @@
 🔅 dim button
 🔆 bright button
 📶 antenna bars
+🛜 wireless
 📳 vibration mode
 📴 mobile phone off
 ♀️ female sign
@@ -3124,6 +3390,7 @@
 ➕ plus
 ➖ minus
 ➗ divide
+🟰 heavy equals sign
 ♾️ infinity
 ‼️ double exclamation mark
 ⁉️ exclamation question mark
@@ -3155,6 +3422,7 @@
 ©️ copyright
 ®️ registered
 ™️ trade mark
+🫟 splatter
 #️⃣ keycap: #
 *️⃣ keycap: *
 0️⃣ keycap: 0
@@ -3300,6 +3568,7 @@
 🇨🇳 flag: China
 🇨🇴 flag: Colombia
 🇨🇵 flag: Clipperton Island
+🇨🇶 flag: Sark
 🇨🇷 flag: Costa Rica
 🇨🇺 flag: Cuba
 🇨🇻 flag: Cape Verde
@@ -3480,7 +3749,7 @@
 🇹🇲 flag: Turkmenistan
 🇹🇳 flag: Tunisia
 🇹🇴 flag: Tonga
-🇹🇷 flag: Turkey
+🇹🇷 flag: Türkiye
 🇹🇹 flag: Trinidad & Tobago
 🇹🇻 flag: Tuvalu
 🇹🇼 flag: Taiwan

@@ -5,5 +5,5 @@ selected=$(cat "$file" | bemenu ${BEMENU_OPTIONS[@]} -p "Emojis" )
 if [ -n "$selected" ]; then
   emoji=$(echo "$selected" | awk '{print $1}')
   echo -n $emoji | wl-copy
-  notify-send "Emoji Copied" "$emoji has been copied to your clipboard."
+  dunstify --appname="Emoji Copied!" "$emoji has been copied to your clipboard."
 fi
