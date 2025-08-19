@@ -72,9 +72,10 @@ systemctl enable ly.service
 
 ## stow
 
+Use `stow` to create the symlinks.
+
 ```bash
 git clone https://github.com/novouss/dotfiles/main.git && cd dotfiles
-# Use stow to create the symlinks
 stow .
 ```
 
