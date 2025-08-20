@@ -10,7 +10,7 @@
   "custom/weather": {
     "format": "{text}",
     "tooltip": false,
-    "interval": 3600000,
+    "interval": 3600,
     "exec": "bash $HOME/dotfiles/.config/scripts/get-weather.sh",
     "return-type": "string"
   },
