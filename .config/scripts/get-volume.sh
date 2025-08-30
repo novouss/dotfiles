@@ -40,9 +40,7 @@ function get_operation {
       echo "Decreased Volume"
       ;;
     volume_mute)
-      # wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
-
-
+      wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
       echo "Volume Muted"
       ;;
     *)
@@ -51,8 +49,8 @@ function get_operation {
   esac
 }
 
-volume=$(get_volume)
 operation=$(get_operation "$1")
+volume=$(get_volume)
 urgency=$(get_urgency "$volume")
 
 notify-send \
