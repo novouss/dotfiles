@@ -22,3 +22,5 @@ vim.opt.spell = true
 -- Disables Wrapping
 vim.wo.wrap = false
 
+-- Enables copying and pasting outside of neovim
+vim.api.nvim_set_option("clipboard", "unnamedplus")
