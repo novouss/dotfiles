@@ -21,3 +21,4 @@ temperature=$(echo "$weatherData" | jq -r '.current_condition[0].FeelsLikeC')
 icon=${icons[$code]}
 
 echo "${icon} ${temperature}°C ${description}"
+
