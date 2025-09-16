@@ -5,6 +5,12 @@ return {
   },
   config = function ()
     require("nvim-tree").setup {
+      filters = {
+        custom = {
+          "__pycache__",
+          ".git",
+        }
+      },
       sort = {
         sorter = "case_sensitive",
       },
