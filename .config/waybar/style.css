@@ -1,6 +1,6 @@
 * {
   font-size: 15px; 
-  font-family: "IBM Plex Mono", "JetBrainsMono Nerd Font", "Material Symbols Rounded"; 
+  font-family: "JetBrainsMono", "JetBrainsMono Nerd Font", "Material Symbols Rounded"; 
 }
 
 window#waybar {
@@ -34,13 +34,6 @@ window#waybar {
 tooltip {
   background: #303446;
   color: #C6D0F5;
-}
-
-#weather,
-#clock {
-  padding: 0px 5px;
-  color: #C6D0F5;
-  transition: all .3s ease;
 }
 
 #workspaces {
@@ -94,6 +87,7 @@ tooltip {
   transition: all .3s ease;
 }
 
+#custom-weather,
 #network,
 #pulseaudio,
 #clock {
