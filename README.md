@@ -6,14 +6,13 @@
 These are the following packages used in the dotfiles.
 
 ```bash
-sudo pacman -S ly kitty hyprland hyprpaper waybar neovim git zsh python stow dunst grim slurp wl-clipboard pipewire ladspa noise-suppression-for-voice
+sudo pacman -S ly kitty hyprland hyprpaper ignis neovim git zsh python stow dunst grim slurp wl-clipboard pipewire ladspa noise-suppression-for-voice
 ```
 
 Optionally, install the following fonts or choose your own fonts (changing text fonts in config required).
 
 ```bash
-sudo pacman -S ttf-jetbrains-mono-nerd ttf-ibm-plex
-yay -i ttf-material-symbols-variable-git
+paru ttf-comic-neue
 ```
 
 ## Uses of dependencies in dotfile
@@ -24,7 +23,7 @@ If one of the packages doesn't fit your need, feel free to replace them with you
 - `kitty` - a GPU-powered linux terminal
 - `hyprland` - serves as the desktop environment
 - `hyprpaper` - a `hyprland` wallpaper utility
-- `waybar` - a customizable bar for wayland
+- `ignis` - a customizable bar with widgets
 - `neovim` - serves as the terminal text editor
 - `git` - version control and repository management
 - `dunst` - a notification manager
@@ -75,7 +74,8 @@ systemctl enable ly.service
 Use `stow` to create the symlinks.
 
 ```bash
-git clone https://github.com/novouss/dotfiles/main.git && cd dotfiles
+git clone https://github.com/novouss/dotfiles/main.git
+cd dotfiles
 stow .
 ```
 
