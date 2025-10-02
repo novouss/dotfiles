@@ -7,8 +7,9 @@ return {
   opts = {
     servers = {
       lua_ls = { settings = { Lua = { diagnostics = { globals = { "vim" } } } } },
-      pylsp = {},
       prettier = {},
+      pyright = {},
+      black = {},
     }
   },
   config = function(_, opts)
@@ -17,7 +18,8 @@ return {
     require("mason-lspconfig").setup {
       ensure_installed = {
         "lua_ls",
-        "pylsp",
+        "pyright",
+        "black",
       },
     }
 
