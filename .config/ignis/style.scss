@@ -20,6 +20,10 @@ $active: #ffb2bc;
   margin-left: 10px;
 }
 
+.modules-right {
+  margin-right: 10px;
+}
+
 .middle-separator {
   background-color: $bg;
   color: $fg;
@@ -30,33 +34,36 @@ $active: #ffb2bc;
   color: $active;
 }
 
-.workspace-button {
+.workspaces {
+  border-color: transparent;
   background-image: none;
 
   border-radius: 1rem;
-  min-width: 0.5rem;
-  min-height: 0.3rem;
+  min-width: 0.2rem;
+  min-height: 1.4rem;
+
+  background-color: darken($bg, 7%);
+}
+
+.workspace-button {
+  border-color: transparent;
+  background-image: none;
+
+  border-radius: 1rem;
+  min-width: 0.7rem;
+  min-height: 1.4rem;
 
   padding: 0 7px;
 
   &.active {
     background-color: $fg;
-    color: transparent;
-    min-width: 2rem;
+    color: $bg;
+    min-width: 2.8rem;
   }
 
   &.inactive {
-    background-color: darken($bg, 5%);
     color: $fg;
   }
-
-  &:hover {
-    background-color: lighten($fg, 10%);
-  }
-}
-
-.modules-right {
-  margin-right: 10px;
 }
 
 .tray-item {
