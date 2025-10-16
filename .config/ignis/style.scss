@@ -38,11 +38,13 @@ $active: #ffb2bc;
   border-color: transparent;
   background-image: none;
 
-  border-radius: 1rem;
-  min-width: 0.2rem;
+  border-radius: 0.5rem;
+  min-width: 0.7rem;
   min-height: 1.4rem;
 
-  background-color: darken($bg, 7%);
+  padding: 5px 7px;
+
+  background-color: darken($bg, 5%); 
 }
 
 .workspace-button {
@@ -50,22 +52,39 @@ $active: #ffb2bc;
   background-image: none;
 
   border-radius: 1rem;
-  min-width: 0.7rem;
-  min-height: 1.4rem;
+  min-width: 0.01rem;
+  min-height: 1rem;
 
   padding: 0 7px;
 
   &.active {
     background-color: $fg;
-    color: $bg;
-    min-width: 2.8rem;
   }
 
   &.inactive {
-    color: $fg;
+    background-color: darken($bg, 2%);
   }
 }
 
 .tray-item {
   all: unset;
+}
+
+.quickaccess-left {
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: $bg;
+  padding: 7px;
+  min-width: 200px;
+}
+
+.timer {
+  min-height: 33px;
+  &.button {
+    min-width: 66px;
+  }
+
+  &.menu {
+    min-width: 100px;
+  }
 }
