@@ -20,8 +20,9 @@ else
   export EDITOR="nvim"
 fi
 
-alias ll="ls --color=auto -a"
-alias ls="ls --color=auto"
+alias ll="ls -alF"
+alias la="ls -A"
+alias l="ls -CF"
 
 alias grep="grep --color=auto"
 

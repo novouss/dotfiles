@@ -7,10 +7,6 @@
 
 export FZF_DEFAULT_COMMAND="find . -path "./.git" -prune -o -print"
 
-alias ls='ls --color=auto'
-alias la='ls --color=auto -a'
-alias ll='ls --color=auto -a -l'
-
 alias grep='grep --color=auto'
 
 alias vi='nvim'
