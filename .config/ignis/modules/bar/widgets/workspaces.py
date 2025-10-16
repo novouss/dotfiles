@@ -12,7 +12,7 @@ class WorkspaceButton(widgets.Button):
             halign="start",
             valign="center",
             on_click=lambda _: workspace.switch_to(),
-            child=widgets.Label(label=str(workspace.id)),
+            # child=widgets.Label(label=str(workspace.id)),
         )
         if workspace.id == HYPRLAND.active_workspace.id:
             self.add_css_class("active")
@@ -27,7 +27,7 @@ class Workspaces(widgets.EventBox):
             spacing=5,
             child=HYPRLAND.bind_many(
                 ["workspaces", "active_workspace"],
-                transform=lambda workspaces, _: [
+                transform=lambda workspaces, active_workspace: [
                     WorkspaceButton(i) for i in workspaces
                 ]
             )
