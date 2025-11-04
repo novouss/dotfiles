@@ -34,35 +34,27 @@ $active: #ffb2bc;
   color: $active;
 }
 
-.workspaces {
-  border-color: transparent;
-  background-image: none;
-
-  border-radius: 0.5rem;
-  min-width: 0.7rem;
-  min-height: 1.4rem;
-
-  padding: 5px 7px;
-
-  background-color: darken($bg, 5%); 
-}
-
 .workspace-button {
   border-color: transparent;
   background-image: none;
+  background-color: darken($bg, 7%);
 
   border-radius: 1rem;
-  min-width: 0.01rem;
+  border-width: 1.25px;
   min-height: 1rem;
 
   padding: 0 7px;
 
-  &.active {
-    background-color: $fg;
+  &.current {
+    border-color: $active;
   }
 
-  &.inactive {
-    background-color: darken($bg, 2%);
+  &.active {
+    border-color: $fg;
+  }
+
+  &.hover {
+    background-color: lighten($fg, 7%);
   }
 }
 
@@ -79,12 +71,5 @@ $active: #ffb2bc;
 }
 
 .timer {
-  min-height: 33px;
-  &.button {
-    min-width: 66px;
-  }
-
-  &.menu {
-    min-width: 100px;
-  }
+  color: yellow;
 }
