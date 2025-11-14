@@ -1,35 +1,16 @@
 return {
-  "williamboman/mason.nvim",
-  dependencies = {
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
-  },
+  'neovim/nvim-lspconfig',
+  dependencies = { 'saghen/blink.cmp' },
   opts = {
     servers = {
-      lua_ls = { settings = { Lua = { diagnostics = { globals = { "vim" } } } } },
-      prettier = {},
-      pyright = {},
-      black = {},
+      lua_ls = {}
     }
   },
   config = function(_, opts)
-    require("mason").setup {}
-
-    require("mason-lspconfig").setup {
-      ensure_installed = {
-        "lua_ls",
-        "pyright",
-      },
-    }
-
+    local lspconfig = require('lspconfig')
     for server, config in pairs(opts.servers) do
-      vim.lsp.config(server, config)
-      vim.lsp.enable(server)
+      config.capabilities = require('blink.cmp').get_lsp_capabilities(config.capabilities)
+      lspconfig[server].setup(config)
     end
-
-    vim.diagnostic.config {
-      virtual_text = true,
-      underline = true,
-    }
   end
 }
