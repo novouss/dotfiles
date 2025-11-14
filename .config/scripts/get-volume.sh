@@ -22,7 +22,7 @@ function is_muted {
 }
 
 function get_urgency {
-  if [ "$1" -ge 10 ]; then
+  if [ "$1" -ge 10 ] && [ "$1" -le 100 ]; then
     echo "normal"
   else
     echo "critical"
