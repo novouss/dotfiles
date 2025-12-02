@@ -12,6 +12,9 @@ return {
       "%.a",
       "%.out",
       "%.class",
+      "node_modules",
+      "package.json",
+      "package-lock.json",
     }
     require("telescope").setup {
       pickers = {
