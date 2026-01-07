@@ -12,11 +12,11 @@ alias grep='grep --color=auto'
 alias vi='nvim'
 
 function open() {
-	nvim "$(fzf --walker=file)"
+	nvim "fd | $(fzf --walker=file)"
 }
 
 function goto() {
-	cd "$(fzf --walker=dir)"
+	cd "fd | $(fzf --walker=dir)"
 }
 
 PS1='[\u@\h \W]\$ '
