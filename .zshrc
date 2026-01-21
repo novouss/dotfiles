@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-fpath+=($HOME/Documents/Repositories/pure)
+fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
 prompt pure
 
