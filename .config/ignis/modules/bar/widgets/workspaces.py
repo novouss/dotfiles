@@ -15,6 +15,8 @@ class WorkspaceButton(widgets.Button):
             # child=widgets.Label(label=str(workspace.id)),
         )
         if workspace.id == HYPRLAND.active_workspace.id:
+            self.add_css_class("current")
+        elif len(HYPRLAND.get_windows_on_workspace(workspace.id)) > 0:
             self.add_css_class("active")
         else:
             self.add_css_class("inactive")
@@ -23,11 +25,11 @@ class WorkspaceButton(widgets.Button):
 class Workspaces(widgets.EventBox):
     def __init__(self):
         super().__init__(
-            css_classes=["workspaces"],
+            # css_classes=["workspaces"],
             spacing=5,
             child=HYPRLAND.bind_many(
                 ["workspaces", "active_workspace"],
-                transform=lambda workspaces, active_workspace: [
+                transform=lambda workspaces, _: [
                     WorkspaceButton(i) for i in workspaces
                 ]
             )

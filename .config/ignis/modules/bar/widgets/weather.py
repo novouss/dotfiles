@@ -63,8 +63,8 @@ class Weather(widgets.Label):
             self._temperature = weather["FeelsLikeC"]
             self._icon = self.ICONS.get(self._code, "?")
             return f"{self._icon} {self._temperature}°C {self._description}"
-        except Exception as e:
-            return f"⁉️ {e}"
+        except Exception:
+            return "⁉️ Unable to retrieve weather data."
 
     def __init__(self):
         self._code = ""
