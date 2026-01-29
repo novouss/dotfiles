@@ -35,7 +35,6 @@ This section contains all the tools being used in the terminal and their install
 
 ```bash
 # Install kitty
-
 sudo pacman -S kitty
 ```
 
