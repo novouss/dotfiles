@@ -1,4 +1,5 @@
 #!/bin/bash
+
 BEMENU_OPTIONS=(\
   --center \
   --list 10 \
