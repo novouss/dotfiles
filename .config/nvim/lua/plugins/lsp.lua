@@ -1,38 +1,44 @@
 return {
-  'neovim/nvim-lspconfig',
-  dependencies = {
-    'williamboman/mason-lspconfig.nvim',
-    'saghen/blink.cmp',
-  },
-  opts = {
-    automatic_setup = true,
-    servers = {
-      biome = {},
-      emmet_ls = {},
-      eslint = {},
-      eslint_lsp = {},
-      lua_ls = {
-        cmd = { 'lua-language-server' },
-        filetypes = { 'lua' },
-      },
-      pyright = {},
-      ts_ls = {},
-      tailwindcss_language_server = {},
-      typescript_language_server = {},
-    }
-  },
-  config = function(_, opts)
-    require('mason-lspconfig').setup {
-      ensure_installed = {
-        'lua_ls',
-        'pyright',
-        'ts_ls',
-      }
-    }
+	"neovim/nvim-lspconfig",
+	dependencies = {
+		"williamboman/mason.nvim",
+		"williamboman/mason-lspconfig.nvim",
+		"saghen/blink.cmp",
+	},
+	config = function()
+		require("mason-lspconfig").setup({
+			ensure_installed = {
+				"lua_ls",
+				"ruff",
+				"ts_ls",
+				"tailwindcss",
+			},
+			automatic_installation = true,
+		})
 
-    for server, config in pairs(opts.servers) do
-      vim.lsp.config(server, config)
-      vim.lsp.enable(server)
-    end
-  end
+		vim.lsp.config("lua_ls", {
+			settings = {
+				Lua = {
+					runtime = { version = "LuaJIT" },
+					diagnostics = { globals = { "vim" } },
+					workspace = {
+						checkThirdParty = false,
+						library = vim.api.nvim_get_runtime_file("", true),
+					},
+					telemetry = { enable = false },
+				},
+			},
+		})
+		vim.lsp.enable("lua_ls")
+
+		for _, server in ipairs({ "ruff", "ts_ls", "tailwindcss", "eslint", "emmet_ls" }) do
+			vim.lsp.enable(server)
+		end
+
+		local signs = { Error = "󰅚", Warn = "󰀪", Hint = "󰌶", Info = "󰋼" }
+		for severity, icon in pairs(signs) do
+			local name = "DiagnosticSign" .. severity
+			vim.fn.sign_define(name, { text = icon, texthl = name })
+		end
+	end,
 }
